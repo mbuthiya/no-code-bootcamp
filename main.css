@@ -1,17 +1,16 @@
 html,body{
     margin:0 ;
     padding: 0;
+    scroll-behavior: smooth;
+
 }
 
 /* Navbar */
 
-#navbar{
-    padding: 40px 40px 0 40px;
-}
-
 #navbar .navbar-container{
     display: flex;
     justify-content: space-between;
+    margin:24px 24px 0 24px;
 }
 
 #navbar .navbar-logo img{
