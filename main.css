@@ -1,0 +1,287 @@
+body {
+    padding: 40px 0px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+li,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.caption {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFC9DE;
+}
+
+section {
+    margin-top: 80px;
+    padding: 0 40px;
+}
+
+/* Menu section */
+
+#menu {
+    margin-top: 0;
+}
+
+#menu-links-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-links-container .menu-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+#menu-links-container .menu-links ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+}
+
+#menu-links-container .menu-links ul li a {
+    color: #313131;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#menu-links-container .menu-links ul li a:hover {
+    color: #2F48BE;
+    text-decoration: none;
+}
+
+.button-link {
+    background-color: #2F48BE;
+    padding: 16px 24px;
+    color: white;
+    border-radius: 40px;
+
+}
+
+.button-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header section */
+
+#header h1 {
+    margin-bottom: 24px;
+}
+
+#header p {
+    margin-bottom: 40px;
+}
+
+#header .button-link {
+    padding: 16px 48px;
+}
+
+#header .row {
+    align-items: center;
+}
+
+/* No-code */
+.mid-content .caption {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.mid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-content h2 {
+    margin-bottom: 24px;
+    text-align: center;
+    max-width: 580px;
+}
+
+.mid-content p {
+    text-align: center;
+}
+
+#no-code .no-code-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.no-code-image-row {
+    margin-top: 40px;
+}
+
+/* Lessons */
+
+#lessons .caption {
+    margin-bottom: 16px;
+}
+
+#lessons h2 {
+    margin-bottom: 24px;
+}
+
+#lessons .row {
+    align-items: center;
+}
+
+.student-metric h1 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.student-metric p {
+    text-align: center;
+}
+
+#outcomes .metric-row {
+    margin-top: 40px;
+}
+
+
+/* No-code challenge */
+
+#no-code-challenge {
+    background: url(images/green-background.svg) no-repeat center center;
+    background-size: cover;
+    padding: 40px 40px;
+}
+
+#no-code-challenge p {
+    color: white;
+}
+
+#no-code-challenge h2 {
+    color: white;
+}
+
+
+/* Get camp low code */
+#get-started .caption {
+    margin-bottom: 16px;
+}
+
+#get-started .get-started-group-container {
+    margin-top: 40px;
+}
+
+.get-started-column-group{
+   display: flex;
+   justify-content: center;
+}
+
+.get-started-group {
+    padding: 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+}
+
+.get-started-group h3{
+    margin-bottom: 16px;
+}
+
+.get-started-group h1{
+    margin-top: 24px;
+}
+
+.get-started-group h1 .small-heading{
+    font-size: 24px;
+}
+
+.get-started-group .checklist{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.get-started-group .checklist .checklist-item{
+    display: flex;
+    gap: 16px;
+}
+
+.get-started-group .checklist .checklist-item img{
+    width: 24px;
+    height: 24px;
+}
+
+.get-started-group .checklist .checklist-item p{
+    align-self: center;
+}
+
+.button-link-large{
+    padding: 16px 72px;
+    border-radius: 40px;
+
+}
+
+.blue-button, .blue-button:hover{
+    background-color: #2F48BE;
+    color: white;
+    
+}
+
+.green-button, .green-button:hover{
+    background-color: #3ACEAA;
+    color: white;
+    
+}
+
+.get-started-group .button-group{
+    display: flex;
+    justify-content: center;
+}
+
+
+#contact-us .button-link{
+    padding: 16px 72px;
+}
