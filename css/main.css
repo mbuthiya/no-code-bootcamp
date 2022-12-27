@@ -1,9 +1,140 @@
 /* Top level styling */
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
+h2 {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.body-text-large {
+    font-family: poppins;
+    font-size: 18px;
+}
+
+.body-text-regular {
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.body-text-small {
+    font-family: poppins;
+    font-size: 14px;
+}
+
+.body-text-small-bold {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.dark-text {
+    color: #101C26;
+}
+
+.yellow-text {
+    color: #F0E714;
+}
+
+
+.button-link,
+.button-link:hover {
+    color: #101C26;
+    background-color: #F0E714;
+    padding: 16px 24px;
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    font-family: poppins;
+    font-weight: 600;
+    border-radius: 4px;
+
+}
+
+
+/* Header section */
+
+#header-group-section {
+    background: url(../images/background-header-image.svg) no-repeat center center;
+    background-size: cover;
+    padding: 40px;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-family: poppins;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.nav-item .active {
+    color: #F0E714 !important;
+}
+
+#header-group-section .index-content-section {
+    margin-top: 80px;
+}
+
+.index-content-section h2 {
+    margin-bottom: 24px;
+}
+
+.index-content-section .body-text-large {
+    margin-bottom: 40px;
+}
+
+.index-content-section .button-link {
+    margin-bottom: 16px;
+}
+
+.index-image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-image-section img {
+    max-width: 480px;
+}
 
 @media only screen and (max-width: 600px) {
 
-    
+    #header-group-section {
+        padding: 16px;
+    }
 
-  }
+    #header-group-section .index-content-section {
+        margin-top: 40px;
+    }
+
+    .index-image-section img {
+        max-width: 328px;
+        margin-top: 40px;
+    }
+
+    .navbar-brand img {
+        max-width: 200px;
+    }
+
+    .navbar-toggler {
+        border-color: #ffffff !important;
+        padding: 0;
+    }
+
+}
